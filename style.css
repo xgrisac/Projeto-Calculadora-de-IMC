@@ -1,0 +1,88 @@
+section{
+    display: flex; /* Centralizar a div - CD*/
+    width: 100vw;
+    height: 100vh;
+    justify-content: center; /* CD */
+    align-items: center; /* CD */
+  
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  
+  div.container{
+    display: flex; /* CD */
+    flex-direction: column; /* Incluir as informações dentro da div */
+    background: rgb(82, 21, 122);
+    width: 500px;
+    height: 700px;
+    align-items: center; /* CD */
+    justify-content: space-evenly; /* CD */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(17, 17, 17);
+  }
+  
+  div.titulo{
+    display: flex; /* CD */
+    justify-content: center; /* CD */
+    align-items: center; /* CD */
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 3px black; /* Linha reta usada para separação */
+    margin-bottom: 10px; 
+  }
+  
+  div.input { /* Conteudo externo do input */
+    display: flex; /* CD */
+    width: 300px;
+    height: 50px;
+    justify-content: space-between; /* CD */
+    align-items: center; /* CD */
+  }
+  div.input input { /* Conteudo interno do input */
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+  }
+  
+  div.input label { /* Escrita antes do input de texto/numero */
+    font: bold 1.5rem serif;
+  }
+  
+  input#calcular{ /* Configurações do botão calcular */
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(82, 21, 122);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  div.result{ /* Configurações da caixa de resultado */
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(82, 21, 122);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  footer {
+    color: rgba(82, 21, 122);
+    text-align: center;
+    font: bold 1.5rem serif;
+  }
