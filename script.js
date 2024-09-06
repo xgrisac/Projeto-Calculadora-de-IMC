@@ -23,11 +23,8 @@ function calculo() {
         } else {
             classificacao = 'com Obesidade Grau 1, muita atenção'
         }
-
-        resultado.innerHTML = `${nome}, seu IMC é ${valorIMC}, você está ${classificacao}!`
     }
 }
-
 
 //PODERIA UTILIZAR ADDEVENTLISTENER OU ONCLICK
 
